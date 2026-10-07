@@ -8,5 +8,9 @@ wt ^
   new-tab --title "Core Service" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-core-domain && make dev" ; ^
   new-tab --title "Admin Service" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-admin-bff && make dev" ; ^
   new-tab --title "Merchant Service" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-merchant-bff && make dev" ; ^
+  new-tab --title "Customer Service" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-customer-bff && make dev" ; ^
   new-tab --title "Admin Dashboard" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-admin-dashboard && make dev" ; ^
-  new-tab --title "Merchant Portal" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-merchant-app && make dev"
+  new-tab --title "Merchant Portal" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-merchant-app && make dev" ; ^
+  new-tab --title "Customer App" --suppressApplicationTitle cmd /k "cd /d C:\the-meal-guides\the-meal-guides-customer-app && make dev"
+
+
